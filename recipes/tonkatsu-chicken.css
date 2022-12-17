@@ -1,3 +1,69 @@
 body {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
+  background-color: #bad0b8;
+  background-image: -webkit-linear-gradient(right, #fc7864, #fda366);
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 700px;
+  margin-left: 700px;
+  padding: 50px;
+  border: 0.5em double white;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border-radius: 1em;
+  background: rgb(59, 59, 59);
+}
+
+.tonkatsu-img {
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  width: min(70%, 500px);
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 48%);
+}
+
+h1 {
+  color: #f4f5f1;
+}
+
+p {
+  color: #f4f5f1;
+}
+
+li {
+  color: #f4f5f1;
+}
+
+.home-link {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fffdd0;
+  font-size: xx-large;
+  background-image: -webkit-linear-gradient(left, #fff 50%, #cf1b24 50%);
+  background-image: linear-gradient(to right, #fff 50%, #cf1b24 50%);
+  background-position: 0;
+  background-size: 200%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-position: -100%;
 }

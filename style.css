@@ -1,3 +1,57 @@
 body {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
+  background-color: #bad0b8;
+  background-image: -webkit-linear-gradient(right, #fc7864, #fda366);
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-bottom: 45px;
+  width: 400px;
+}
+
+.main-image {
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  width: min(70%, 500px);
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 48%);
+}
+
+.main-header {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 200px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fffdd0;
+  font-size: xx-large;
+  background-image: -webkit-linear-gradient(left, #fff 50%, #cf1b24 50%);
+  background-image: linear-gradient(to right, #fff 50%, #cf1b24 50%);
+  background-position: 0;
+  background-size: 200%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-position: -100%;
 }
